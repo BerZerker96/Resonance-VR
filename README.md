@@ -97,28 +97,6 @@ Pick the method you like in **View > Stereo method**. You can switch while playi
 
 ---
 
-## ✨ What you get
-
-- **Real 3D with head tracking.** Your head moves the game's own render camera, so the game draws everything you look at, with no pop-in.
-- **Full field of view** with wide culling: nothing is cut off or pops in at the sides, with a soft fill at the very edges. Only the culling is widened; the picture is not rendered any bigger.
-- **A HUD you can read:** the game lays its HUD out smaller and on your line of sight, at a comfortable depth (**HUD > UI scale**, **UI depth**), with text that stays sharp. Hide it with `F7`.
-- **Built-in first person** (`End`): your eye at the character the camera follows, with adjustable eye height and position. Cutscenes keep the game's camera.
-- **Decoupled pitch:** the camera stays level and you look up and down with your head (less motion sickness).
-- **Comfort filters:** camera shake filter and idle sway lock for the game camera; your own head is never filtered.
-- **Head aim** (on by default): the sling and crossbow aim where you look; the view does not turn. For exact aim, turn the game's aim assist off in its accessibility options.
-- **No lens effects in your eyes:** lens distortion, chromatic fringe and vignette off (film grain, lens dirt and lens flare optional).
-- **Sharp cutscenes:** the game's depth-of-field blur is switched off while a cutscene or scripted camera is shown (in a headset your eyes focus themselves). **Display > Depth of field**: cutscenes, off or the game's.
-- **No intro logos:** the start-up logos are skipped (built in, no separate no-intro mod). Turn it off with **Display > Skip intro logos**.
-- **No black bars**, and the game keeps full speed when its window has no focus.
-- **Smooth frame pacing:** a frame cap at your headset's refresh rate if you want it, a short GPU queue for low lag, fixed foveated rendering (VRS) as an option, and no Windows throttling.
-- **Menus, pause screens and videos** on a flat virtual screen. Photo mode stays in 3D.
-- **The game never feels your head:** after each eye is drawn the game gets its own camera back, so nothing drifts or spins.
-- **A VR panel in the game's style:** black, old gold and blood red, readable at arm's length (`Insert` or hold `L3 + R3`).
-- **Setup check:** frame generation, temporal anti-aliasing in the wrong stereo method, other mods and FOV patchers are found and named in the log.
-- **Safe with speed hacks:** they change only the game, never the VR timing.
-
----
-
 ## 🧰 VR panel (`Insert` / `L3 + R3`)
 
 | Page | What's there |
@@ -163,7 +141,6 @@ Technical details are in `NOTES.md`, and the history is in `CHANGELOG.md`.
 | Who | What |
 |---|---|
 | **mark-mon** | The VR framework this mod is built on: XrBridge OpenXR host, vrkit VR panel, proxy loader, and its D3D12 compositor, stereo reconstruction and foveated rendering |
-| **sKuhLight** | Resonance 32:9 & FOV patcher: confirmed the picture-shape clamp and the gameplay FOV load |
 | **praydog / UEVR** | The synchronized-sequential idea behind the synchronized method |
 | **Tsuda Kageyu** | MinHook (BSD 2-Clause) |
 | **Omar Cornut** | Dear ImGui (MIT) |
