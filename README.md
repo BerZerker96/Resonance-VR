@@ -1,3 +1,6 @@
+
+<img width="2047" height="1152" alt="apt" src="https://github.com/user-attachments/assets/f3c568d2-f17e-48e4-81d7-1d88d047b81e" />
+
 <div align="center">
 
 # 🗡️ Resonance VR
@@ -7,6 +10,11 @@
 Stereo 3D · stereo reconstruction · head and position tracking · first person · in-headset settings panel · any OpenXR headset
 
 ![version](https://img.shields.io/badge/version-0.2.0--alpha-c0392b) ![game](https://img.shields.io/badge/game-Resonance%3A%20A%20Plague%20Tale%20Legacy-222) ![xr](https://img.shields.io/badge/OpenXR-SteamVR%20%7C%20Pimax%20%7C%20Quest%20%7C%20VDXR%20%7C%20WMR-555)
+
+<img width="6320" height="1198" alt="ResonanceVR_20261127_201506_875_left" src="https://github.com/user-attachments/assets/62e8a059-2216-4d85-b6c0-1fc5eaaca26d" />
+
+
+
 
 </div>
 
